@@ -1,0 +1,133 @@
+/* For Tablet */
+@media(max-width: 870px)
+{
+    .Navbar{
+        height: 40vh;
+    }
+}
+@media (max-width: 768px) 
+{
+    .Navbar{
+        display: block;
+        height: 40vh;
+        padding-left: 2%;
+    }
+    .Navbar .NavHead{
+       padding-top: 2vh;
+        width: 90%;
+        font-size: 29px;
+    }
+    .Navbar .NavEmail{
+        margin-top: 4vh;
+        width: 100%;
+    }
+    .BodyCont{
+        grid-template-columns: 1fr 1fr;
+        font-size: small;
+    }
+    .Navbar .Foot1Head {
+        padding-top: 4vh;
+        width: 80%;
+        margin-left: 10%;
+        font-size: small;
+        text-align: center;
+    }
+    .Navbar .Foot1Head button{
+        width: 25%;
+        height: 6vh;
+    }
+    .Footer{
+        height: 75vh;
+    }
+    .FooterCont{
+        display: block;
+        margin-left: 1%;
+    }
+    .Foot2Grid,.Foot2Email {
+        margin-top: 1vh;
+        width: 96%;
+    }
+    .Foot2Grid{
+        margin-top: 4vh;
+    }
+    .Footer .Foot2Email .FootEmail #Text{
+        width: 75%;
+    }
+    .Footer .Foot2Email p{
+        width: 100%;
+    }
+}
+/* For mobile*/
+@media (max-width: 375px) 
+{
+    .Navbar{
+        display: block;
+        height: 46vh;
+    }
+    .Navbar .NavHead{
+        width: 92%;
+        font-size: 21px;
+    }
+    .Navbar .NavEmail p{
+        display: none;
+    }
+    .Navbar .NavEmail button,.Navbar .NavEmail #Text {
+      width: 90%;
+      margin-bottom: 2vh;
+      border-radius: 6px 6px 6px 6px;
+      /* margin-left: 5%; */
+    }
+    .Navbar .NavEmail{
+        margin-top: 4vh;
+        width: 100%;
+    }
+    .BodyCont{
+        grid-template-columns: 1fr;
+    }
+    .Navbar .Foot1Head h1{
+        font-size: 26px;
+         width: 95%;
+    }
+    .Navbar .Foot1Head {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .Navbar .Foot1Head p{
+        font-size: large;
+        padding: 2vh 0px;
+    }
+    .Navbar .Foot1Head button{
+        width: 90%;
+    }
+    .Footer{
+        height: 95vh;
+    }
+    .FooterCont{
+        display: block;
+        margin-left: 2%;
+        width: 96%;
+    }
+    .Foot2Grid,.Foot2Email {
+        margin-top: 1vh;
+    }
+    .Foot2Grid{
+        grid-template-columns: 1fr 1fr;
+        margin-top: 4vh;
+    }
+    .Footer img {
+        margin-left: -42%;
+        margin-bottom: 2vh;
+    }
+    .Footer .Emp {
+        width: 95%;
+        margin-left: 4%;
+    }
+    .Footer .Foot2Email .FootEmail #Text{
+        width: 76%;
+    }
+    .Footer .Foot2Email .FootEmail button{
+        width: 17%;
+        font-size: x-small;
+    }
+    
+}
